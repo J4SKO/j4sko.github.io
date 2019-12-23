@@ -1,12 +1,18 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+    
+    max-width: 100%;
+  
     background-color: black;
     color: white;
    
-   
+}
+header
+{
+    height: 250px;
+    width: 100%;
+
 }
 
 
@@ -30,7 +36,6 @@ body
 }
 nav
 {
-    
     position: static;
     text-decoration: none;
     margin-top: 130px;
@@ -100,10 +105,17 @@ footer
 {
     margin-top: 20px;
     text-align: center;
-    
+ 
 }
 @media only screen and (max-width:600px)
 {
+body 
+{
+    
+   
+    margin: 0;
+}
+
 header
 {
     height: 250px;
@@ -132,7 +144,9 @@ header img
 nav
 {
     text-decoration: none;
-    margin-top: 5px;
+    margin-top:0;
+   margin-bottom: 0;
+   padding: 0;
 }
 nav li
 {
@@ -159,14 +173,16 @@ nav a:hover
 }
 #sadrzaj
 {
-    
+    margin: auto;
     height: 60%;
     width: 100%;
     padding: 10px;
     text-align: justify;
+    border: none;
 }
 #sadrzaj img 
 {
+    margin: auto;
     height: 250px;
     float: left;
     width: 100%;
@@ -190,6 +206,6 @@ footer
 {
     margin-top: 20px;
     text-align: center;
-    
+    width: 100%;
 }
 }

@@ -114,7 +114,7 @@ footer
 
 body,html
 {
-    
+   overflow-y:hidden;
    margin: 0 auto;
    overflow-x: hidden;
 }
